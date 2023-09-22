@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu{
+    background: url(../img/road-g9875459d1_1920\ 1.jpg);
+    height: 750px;
+}
+.menu__cars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+}
+.menu__list li{
+   color: antiquewhite;
+   list-style: none;
+   margin-left: 30px;
+}
+.menu__language{
+    display: flex;
+}
+.text{
+    color: #B7B7B7;
+}
+.menu__language p{
+    color:#FFFFFF;
+    margin-left: 10px;
+}
+.menu__title{
+    padding-top: 130px;
+
+}
+.menu__title h1{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+}
+
+.btns{
+    width: 198px;
+    height: 50px;
+    background-color: #DB2512;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+}
+/* cards */
+.cards{
+    position: relative;
+    bottom: 100px;
+}
+.cards__block{
+    display: flex;
+    justify-content: space-between;
+}
+.cards__card{
+    width: 386px;
+    height: 196px;
+    box-shadow:0.2px 0.2px 0.2px 0.2px;
+    background: #FFFFFF;
+    padding: 20px 0px 0px 30px;
+}
+.cards__title{
+    margin: 25px 0px;
+    font-weight:700;
+}
+
+ /*works  */
+ .works{
+ }
+.works__block{
+    display: flex;
+    justify-content: space-between;
+    position: relative; 
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.works__titles h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+    margin-bottom: 30px;
+}
+.works__titles a{
+    text-decoration: none;
+    color:#000000;
+}
+.work__card{
+    padding: 10px 10px 0px;
+}
+.cards__work h4{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0.23em;
+}
+.work__title{
+    position: absolute;
+    top: 270px;
+    padding-left: 40px;
+}
+.work__title h4 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.23em;
+    color: #FFFFFF;
+}
+.works__plus{
+    margin-left: 90px;
+}
+.work__card h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.23em;
+}
+/* info */
+.info{
+    background-color: #171616;
+    padding: 100px 0px;
+}
+.info__state {
+    display: flex;
+    justify-content: space-between;
+}
+.info__titles{
+    color: #FFFFFF;
+}
+.info__titles h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+}
+.info__titles h3 {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.23em;
+    width: 400px;
+    margin: 20px 0px;
+}
+.info__titles a {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+}
+/* fast */
+.fast__state{
+    text-align: center;
+}
+.fast__state h1{
+    font-family: Poppins;
+    font-size: 148px;
+    font-weight: 900;
+    line-height: 222px;
+    letter-spacing: 0em;
+}
+.fast__state h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.15em;
+}
+.fast__cards{
+    display: flex;
+    justify-content: space-between;
+}
+.fast__card{
+    width: 386px;
+    height: 150px;
+    padding: 35px 0px 0px 50px;
+    box-shadow: 0px 0px 15px 0px #00000040;
+    margin:100px 0px 200px 0px;
+}
+.fast__card h2 {
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+}
+.fast__card p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+/* contacts */
+.contacts{
+    background-color: #000000;
+    padding: 100px;
+}
+.cantacts__state{
+    color: #FFFFFF;
+}
+
+.contacts__reg{
+    display: flex;
+    margin:50px 0px 0px 0px;
+
+}
+.contacts__name{
+  margin-right: 90px;
+}
+.contacts__line{
+    width: 300px;
+    margin-bottom: 60px;
+}
+.contacts__down{
+    margin-top: 77px;
+}
+.contacts__messeg{
+     width: 690px;
+     margin-top: 170px;
+}
+.contacts__message button {
+    background: #DB2512;
+    width: 198px;
+    height: 50px;
+    border:none;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+/* last */
+.last__state{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 0px;
+}
+.last__image img{
+   margin-left: 10px;
+}
